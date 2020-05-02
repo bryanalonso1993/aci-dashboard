@@ -1,0 +1,24 @@
+/*https://www.youtube.com/watch?v=QBOUSrMqlSQ&t=1547s*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.grid{
+    display: grid; /* Establecemos las grillas -- : ) */
+    grid-template-columns: 33% 33% 33%; /* dividimos las columnas en 3 partes iguales*/
+    grid-template-rows: 200px 400px; /* tamaño de las filas en este caso primera fila 200px segunda fila 400px*/
+    /* gap:1em; espaciado entre las grillas tanto horizontal como vertical*/
+    /*row-gap: 1em;  espaciado entre las grillas solo filas*/
+    column-gap: 1em; /*espaciado entre las columnas ... */
+    /* fracciones en css grid-template-columns: 1fr 1fr 1fr 1fr; equivalente repeat(4,1fr)*/
+    /*grid-template-rows: minmax(100px,max); Establecer un min y max */
+
+}
+.grid > div{
+    background-color: #ecf0f1;
+    padding: 1em;
+}
+.grod > div:hover{
+    border: 1px solid #f1c40f;
+
+}

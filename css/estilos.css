@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Este es el div container*/
+.div-body{
+    width: 100%;
+    padding-left: 10em;
+    padding-right: 10em;
+    height: 1200px;
+    text-align: center;
+}
+nav{
+    background-color: #ff1a1a;
+    padding: 1em;
+    box-shadow: 2px 2px 5px #999;
+}
+
+span{
+    color: white;
+    margin-left: 2em;
+    display: inline-block;
+    vertical-align: baseline;
+}
+#main-logo{
+    width: 120px;
+    height: 50px;
+    vertical-align: baseline;
+    margin-left: 1em;
+}
+
+.row{
+    text-align: justify;
+    margin-top: 1em;
+}
+/*estilos pa la barra*/
+/* https://linearicons.com/free#cheat-sheet */
+.barra-lateral{
+    position: fixed;
+    left: 0;
+    top:350px;
+    z-index: 2000;
+}
+.barra-lateral > ul{
+    list-style: none;
+}
+
+.barra-lateral > ul > li > a{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-top: solid 2px white;
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.barra-lateral > ul > li > .lnr-home{
+    background-color: #ff1a1a;
+}
+
+.barra-lateral > ul > li  > .lnr-user{
+    background-color: #ff1a1a;
+}
+.barra-lateral > ul > li > .lnr-cog{
+    background-color: #ff1a1a;
+}
+.barra-lateral > ul > li  > .lnr-database{
+    background-color: #ff1a1a;
+}
+
+.barra-lateral > ul > li a:hover{
+    padding: 10px 30px;
+}
+
+canvas{
+    width: 400px;
+    height: 400px;
+}
+
+table{
+    width: 500px;
+}
+
+.scroll{
+    max-height: 400px;
+    overflow: auto;
+}
+
+thead{
+    background-color: #00ACC2;
+    color: white;
+    border-radius: 25px;
+    
+}
+tr > td{
+    color: black;
+}

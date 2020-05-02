@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACI Fabric</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../librerias/bootstrap-4.4.1/dist/css/bootstrap.min.css">
+    <!-- STILES Bryan-->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- Stile icons -->
+    <link rel="stylesheet" href="./Linearicons-Free-v1.0.0/Web Font/style.css">
+    <!-- Load Chart-js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="#">
+          <img id="main-logo" src="./img/logo claro en blanco-1.png"  alt="claro-img">
+          <span><h4>ACI FABRIC - OyM Soporte a Clientes</h4></span> 
+        </a>
+    </nav>
+    <!-- BARRA LATERAL-->
+    <div class="barra-lateral">
+      <ul>
+        <li><a href="https://sandboxapicdc.cisco.com/"  target="_blank" class="lnr lnr-home"></a></li>
+        <li><a href="https://www.facebook.com/estephani.poncelimache"  target="_blank" class="lnr lnr-user"></a> </li>
+        <li><a href="https://www.google.com.pe" target="_parent" class="lnr lnr-cog"></a> </li>
+        <li><a href="https://www.google.com.pe"  target="_top" class="lnr lnr-database"></a> </li>
+      </ul>
+    </div>
+    <div class="div-body" >
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-md-12">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-md-12">
+                  nostrum tempora repudiandae illo harum error quos nihil facilis eos commodi perspiciatis sint eius consequatur saepe sit, esse aut animi autem beatae ex odio quod repellat dolorem explicabo. Inventore eligendi provident magni sint et accusantium! Accusantium, iste, voluptate mollitia doloribus molestias, asperiores id maiores nemo porro vitae laboriosam pariatur odit quis saepe. Iste modi harum eligendi porro fugiat magnam ea fuga veniam aspernatur, velit culpa excepturi quidem molestiae quibusdam numquam sequi. Ipsam commodi, vitae accusantium dolores quae, provident quod iusto omnis odit, nesciunt deserunt repellat nisi maiores mollitia saepe accusamus dignissimos?
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                  <canvas id="myChart"></canvas>
+            </div>
+              <!--
+                https://lenguajehtml.com/p/html/formularios/medidores-y-barras-de-progreso
+              -->
+              <div class="col-sm-12 col-md-6 col-lg-6" id="push-data-partitions">
+                <label >ESTADISTICAS ACI</label>
+            </div>
+        </div>
+        <div class="row" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aliquam eum velit vero tempora animi, aperiam nam illum amet deleniti rem expedita dolorum laborum, id atque. Voluptatum expedita velit exercitationem.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 scroll">
+                <table class="table table-striped">
+                  <thead class="thead">
+                    <tr>
+                      <th scope="col">SEVERITY</th>
+                      <th scope="col">CAUSE</th>
+                      <th scope="col">DESCRIBE</th>
+                      <th scope="col">DOMAIN</th>
+                      <th scope="col">RULE</th>
+                      <th scope="col">SUBJECT</th>
+                      <th scope="col">TYPE</th>
+                    </tr>
+                  </thead>
+                  <tbody id='tbody'>
+                  </tbody>
+                </table>
+                <!-- LEGEND SEVERITY ALARMS -->
+                <div class="col-lg-12 col-sm-12 col-md-12">
+                  <div>
+                        <fieldset style="display: inline-block;">major</fieldset>
+                        <fieldset style="display: inline-block;">cleared</fieldset>
+                  </div>
+                </div>
+
+        </div>
+        </div>
+    </div>
+    <!-- ACA VA LA SECCION-->
+    <section class="bg-dark py-5 text-white">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, quibusdam.</p>
+    </section>
+    <!-- ACA VA LAS INTERFACES DE LOS SWITCHES -->
+    <section class="py-5">
+        <div class="container">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    </section>
+</body>
+<!-- Load scripts  javascript  -->
+<script type="text/javascript" src="./js/styles.js"></script>
+<script type="text/javascript" src="./js/get_alarms_info.js"></script>
+<script type="text/javascript" src="./js/get_graphical_data.js"></script>
+</html>
