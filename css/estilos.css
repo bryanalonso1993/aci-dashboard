@@ -11,7 +11,7 @@
     width: 100%;
     padding-left: 10em;
     padding-right: 10em;
-    height: 1200px;
+    height: 2000px;
     text-align: center;
 }
 nav{
@@ -88,7 +88,7 @@ table{
 }
 
 .scroll{
-    max-height: 400px;
+    max-height: 700px;
     overflow: auto;
 }
 
@@ -100,4 +100,7 @@ thead{
 }
 tr > td{
     color: black;
+}
+.progress{
+    margin: 1em;
 }

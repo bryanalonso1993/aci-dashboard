@@ -58,7 +58,7 @@ function getPartitionsApic(){
                             if(arrayProgress[index].classList.contains(`${element.name}`)){
                                 setAttributes(arrayProgress[index].childNodes[0],{
                                     "style": "width :"+ `${element.capUtilized}`+"%",
-                                    "class": "progress-bar bg-success " + `${element.capUtilized}` + "-child",
+                                    "class": "progress-bar bg-info " + `${element.capUtilized}` + "-child",
                                     "aria-valuenow": `${element.capUtilized}`
                                 });
                                 arrayProgress[index].childNodes[0].textContent = `${element.capUtilized}` ;
@@ -77,7 +77,7 @@ function getPartitionsApic(){
                     const boxPartitionsChild = document.createElement('div');
                     boxPartitions.setAttribute('class','progress '+`${element.name}`);
                     setAttributes(boxPartitionsChild, {
-                        "class":"progress-bar bg-success " + `${element.capUtilized}`+"-child",
+                        "class":"progress-bar bg-info " + `${element.capUtilized}`+"-child",
                         "role":"progressbar",
                         "style":"width :" + `${element.capUtilized}`+"%",
                         "aria-valuemin":"0",
@@ -96,7 +96,7 @@ function getPartitionsApic(){
                 boxPartitions.setAttribute('class','progress '+`${element.name}`);
                 setAttributes(boxPartitionsChild, {
                     "aria-valuemin":"0",
-                    "class":"progress-bar bg-success " + `${element.capUtilized}`+"-child",
+                    "class":"progress-bar bg-info " + `${element.capUtilized}`+"-child",
                     "role":"progressbar",
                     "style":"width :" + `${element.capUtilized}`+"%",
                     "aria-valuenow": `${element.capUtilized}`,

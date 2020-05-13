@@ -11,7 +11,7 @@
     <!-- Stile icons -->
     <link rel="stylesheet" href="./Linearicons-Free-v1.0.0/Web Font/style.css">
     <!-- Load Chart-js -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script type="text/javascript" src="../librerias/Chart.min.js"></script>
 </head>
 <body>
     <nav>
@@ -24,35 +24,29 @@
     <div class="barra-lateral">
       <ul>
         <li><a href="https://sandboxapicdc.cisco.com/"  target="_blank" class="lnr lnr-home"></a></li>
-        <li><a href="https://www.facebook.com/estephani.poncelimache"  target="_blank" class="lnr lnr-user"></a> </li>
+        <li><a href="interfaces.html"  target="_blank" class="lnr lnr-user"></a> </li>
         <li><a href="https://www.google.com.pe" target="_parent" class="lnr lnr-cog"></a> </li>
         <li><a href="https://www.google.com.pe"  target="_top" class="lnr lnr-database"></a> </li>
       </ul>
     </div>
     <div class="div-body" >
-        <div class="row">
-            <div class="col-sm-12 col-lg-12 col-md-12">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-lg-12 col-md-12">
-                  nostrum tempora repudiandae illo harum error quos nihil facilis eos commodi perspiciatis sint eius consequatur saepe sit, esse aut animi autem beatae ex odio quod repellat dolorem explicabo. Inventore eligendi provident magni sint et accusantium! Accusantium, iste, voluptate mollitia doloribus molestias, asperiores id maiores nemo porro vitae laboriosam pariatur odit quis saepe. Iste modi harum eligendi porro fugiat magnam ea fuga veniam aspernatur, velit culpa excepturi quidem molestiae quibusdam numquam sequi. Ipsam commodi, vitae accusantium dolores quae, provident quod iusto omnis odit, nesciunt deserunt repellat nisi maiores mollitia saepe accusamus dignissimos?
-            </div>
-        </div>
         <div class="row" >
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6" style="width:100%;height: 80%">
                   <canvas id="myChart"></canvas>
             </div>
               <!--
                 https://lenguajehtml.com/p/html/formularios/medidores-y-barras-de-progreso
               -->
               <div class="col-sm-12 col-md-6 col-lg-6" id="push-data-partitions">
-                <label >ESTADISTICAS ACI</label>
+                <label>ESPACIO EN EL CONTROLADOR</label>
             </div>
         </div>
         <div class="row" >
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aliquam eum velit vero tempora animi, aperiam nam illum amet deleniti rem expedita dolorum laborum, id atque. Voluptatum expedita velit exercitationem.</p>
+            <div class="col-lg-12 col-sm-12 col-md-12" style="width: 100%;height: 80%">
+                <canvas id="myChart2">
+
+                </canvas>
+            </div>
         </div>
         <div class="row">
             <div class="col-lg-12 scroll">
@@ -82,18 +76,6 @@
         </div>
         </div>
     </div>
-    <!-- ACA VA LA SECCION-->
-    <section class="bg-dark py-5 text-white">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, quibusdam.</p>
-    </section>
-    <!-- ACA VA LAS INTERFACES DE LOS SWITCHES -->
-    <section class="py-5">
-        <div class="container">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-        </div>
-    </section>
 </body>
 <!-- Load scripts  javascript  -->
 <script type="text/javascript" src="./js/styles.js"></script>

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    font:bold 14px verdana;
+}
+/* caja que contiene todos los switchs */
+.main-switch{
+}
+/*propiedades de la caja nombre leaf*/
+.switch > .switch-name{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: white; /* name leaf*/
+    font: bold 16px verdana;
+}
+/* cuerpo del switch */
+.switch{
+    border: 3px solid black;
+    border-radius: 0.5em;
+    margin: 5px;
+    padding: 4px;
+    background-color: #0077b3;
+    /*background-color: #114f80;*/
+}
+
+div li {
+    border-radius: 0.5em;
+    list-style: none;
+    background-color: white;
+    margin: 2px;
+    color: green;
+    text-align: center;
+    padding: 2px;
+    border: 4px solid black;
+    font:bold 15px helvetica;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 1em;
+    grid-template-rows: auto;
+}
+.example{
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid red;
+    display: inline-block;
+}
